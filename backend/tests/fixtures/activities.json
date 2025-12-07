@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "title": "Escursione al Teide",
+      "description": "Visita il vulcano più alto di Spagna con guida esperta. Il Parco Nazionale del Teide è patrimonio UNESCO e offre paesaggi lunari mozzafiato.",
+      "category": "Natura",
+      "price": "Gratis",
+      "location": "Parque Nacional del Teide",
+      "duration": "6 ore",
+      "difficulty": "Media",
+      "link": "https://www.volcanoteide.com"
+    },
+    {
+      "title": "Whale Watching a Los Gigantes",
+      "description": "Osserva balene pilota e delfini nel loro habitat naturale. Escursione in barca con 95% di probabilità di avvistamento.",
+      "category": "Mare",
+      "price": "50€",
+      "location": "Los Gigantes",
+      "duration": "3 ore",
+      "difficulty": "Facile",
+      "link": "https://example.com/whale-watching"
+    },
+    {
+      "title": "Siam Park - Parco Acquatico",
+      "description": "Il miglior parco acquatico del mondo secondo TripAdvisor. Scivoli adrenalinici e spiaggia artificiale con onde.",
+      "category": "Divertimento",
+      "price": "40€",
+      "location": "Costa Adeje",
+      "duration": "Giornata intera",
+      "difficulty": "Facile",
+      "link": "https://www.siampark.net"
+    }
+  ],
+  "off_topic": false,
+  "message": null
+}

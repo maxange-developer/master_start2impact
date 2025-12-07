@@ -1,0 +1,28 @@
+{
+  "teide": [
+    {
+      "url": "https://picsum.photos/seed/teide1/800/600",
+      "description": "Mount Teide volcano peak"
+    },
+    {
+      "url": "https://picsum.photos/seed/teide2/800/600",
+      "description": "Teide National Park landscape"
+    }
+  ],
+  "whale": [
+    {
+      "url": "https://picsum.photos/seed/whale1/800/600",
+      "description": "Whale watching tour boat"
+    },
+    {
+      "url": "https://picsum.photos/seed/whale2/800/600",
+      "description": "Dolphins jumping in ocean"
+    }
+  ],
+  "siam": [
+    {
+      "url": "https://picsum.photos/seed/siam1/800/600",
+      "description": "Siam Park water slides"
+    }
+  ]
+}

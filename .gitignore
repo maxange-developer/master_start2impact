@@ -1,0 +1,43 @@
+# Project Documentation Files
+project_files/
+
+# Backend
+backend/.env
+backend/*.db
+backend/sql_app.db
+backend/test.db
+backend/.coverage
+backend/htmlcov/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/dist/
+backend/build/
+backend/*.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+*.pyc
+*.pyo
+*.egg
+.Python
+env/
+venv/
+ENV/
