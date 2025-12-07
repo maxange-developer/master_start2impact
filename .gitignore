@@ -4,7 +4,6 @@ project_files/
 # Backend
 backend/.env
 backend/*.db
-backend/sql_app.db
 backend/test.db
 backend/.coverage
 backend/htmlcov/
@@ -14,6 +13,9 @@ backend/.pytest_cache/
 backend/dist/
 backend/build/
 backend/*.egg-info/
+
+# IMPORTANTE: Non ignorare initial_data.json (serve per il deploy)
+!backend/initial_data.json
 
 # Frontend
 frontend/node_modules/

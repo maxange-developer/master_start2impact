@@ -27,13 +27,13 @@
 
 ```bash
 # Clona e naviga
-git clone https://github.com/maxange-developer/master_start2impact
-cd master_start2impact
+git clone https://github.com/TUO_USERNAME/tenerife-ai-finder.git
+cd tenerife-ai-finder
 
 # Copia il template dell'ambiente e aggiungi le chiavi API fornite
 copy .env.example .env
 
-# Avvia tutto con Docker
+# Avvia tutto con Docker (il database verrà caricato automaticamente)
 docker-compose up --build
 
 # Visita: http://localhost:5173
@@ -43,7 +43,7 @@ docker-compose up --build
 
 - Backend: http://localhost:8000 (API Docs: http://localhost:8000/docs)
 - Frontend: http://localhost:5173
-- Database: SQLite (pre-caricato con 20 articoli)
+- Database: SQLite (caricato automaticamente con tutti i dati da initial_data.json)
 
 ### Opzione 2: Sviluppo Locale (Per Apprendimento)
 

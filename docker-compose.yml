@@ -1,27 +1,6 @@
 version: "3.8"
 
 services:
-  # PostgreSQL Database
-  db:
-    image: postgres:15-alpine
-    container_name: tenerife-db
-    environment:
-      POSTGRES_USER: ${DB_USER:-tenerife_user}
-      POSTGRES_PASSWORD: ${DB_PASSWORD:-tenerife_password}
-      POSTGRES_DB: ${DB_NAME:-tenerife_ai_db}
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-tenerife_user}"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-    networks:
-      - app_network
-    restart: unless-stopped
-
   # FastAPI Backend
   backend:
     build:
@@ -29,24 +8,21 @@ services:
       dockerfile: Dockerfile
     container_name: tenerife-backend
     environment:
-      SQLALCHEMY_DATABASE_URI: postgresql://${DB_USER:-tenerife_user}:${DB_PASSWORD:-tenerife_password}@db:5432/${DB_NAME:-tenerife_ai_db}
+      SQLALCHEMY_DATABASE_URI: sqlite:///./sql_app.db
       SECRET_KEY: ${SECRET_KEY:-aejUOWY7qptc4x2l-Es%ZQo1@CLyfPJ#36F5M*SRTGKwN0BV9+zu8nimX!bk=D&$}
-      OPENAI_API_KEY: ${OPENAI_API_KEY:-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
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-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}
       TAVILY_API_KEY: ${TAVILY_API_KEY:-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}
       DEBUG: ${DEBUG:-false}
       ALGORITHM: HS256
       ACCESS_TOKEN_EXPIRE_MINUTES: 30
-    depends_on:
-      db:
-        condition: service_healthy
     ports:
       - "8000:8000"
     volumes:
       - ./backend:/app
+      - sqlite-data:/app
     networks:
       - app_network
     restart: unless-stopped
-    command: python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
   # React Frontend
   frontend:
@@ -57,7 +33,7 @@ services:
     environment:
       VITE_API_URL: ${VITE_API_URL:-http://backend:8000}
     ports:
-      - "5173:5173"
+      - "5173:80"
     depends_on:
       - backend
     volumes:
@@ -86,7 +62,7 @@ services:
 
 # Volumes
 volumes:
-  postgres_data:
+  sqlite-data:
     driver: local
 
 # Networks

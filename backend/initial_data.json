@@ -1,0 +1,980 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "massiangelone01@gmail.com",
+      "full_name": "Max",
+      "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$P6fUeu/9f+9dC6FUqnWOUQ$Zh7j/xrdCxsxdG8pijILt5EzRA1vFirMXCFjF+9LVzs",
+      "is_active": true,
+      "is_admin": false,
+      "language": "it"
+    },
+    {
+      "id": 2,
+      "email": "admin@admin.com",
+      "full_name": "Admin User",
+      "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$uHeuVYqR0jon5Hyvdc5ZCw$P1SuCFSKIruMRQoBbBl6gvn/BEr/VYHdBIAAAaoZ9+k",
+      "is_active": true,
+      "is_admin": true,
+      "language": "it"
+    },
+    {
+      "id": 3,
+      "email": "test@test.com",
+      "full_name": "Professore",
+      "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$gFAKgfCe834vhRAiBGAMIQ$g3OrZYkbw7w3GwtmmVxQCDjFM9GnbRG6K0OixnJUj3A",
+      "is_active": true,
+      "is_admin": false,
+      "language": "it"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Parco Nazionale del Teide: Manuale Definitivo tra Vulcani, Sentieri e Stelle",
+      "slug": "parco-nazionale-del-teide-manuale-definitivo-tra-vulcani-sentieri-e-stelle",
+      "content": "Il Parco Nazionale del Teide è il cuore pulsante di Tenerife e uno dei paesaggi vulcanici più spettacolari al mondo. Dichiarato Patrimonio dell’Umanità UNESCO, racchiude una caldera di circa 17 km di diametro (le Cañadas) con al centro il maestoso Teide (3.718 m), la vetta più alta di Spagna. Visitare il parco non significa solo “salire sul Teide”, ma comprendere un ecosistema unico, una storia geologica complessa e vivere esperienze che vanno dal trekking all’osservazione delle stelle.\n\n### 1.1 Come Raggiungere il Parco: Le 4 Strade Panoramiche\n\n1. **Da La Orotava (Nord) – TF-21**  \n   La strada sale dolcemente dalle verdi valli del nord fino ai paesaggi di alta quota. Si parte da un clima umido e subtropicale, con bananeti e giardini, per entrare poi in boschi di pino canario. Lungo il percorso incontrerai diversi mirador con vista su Puerto de la Cruz e sulla valle.\n\n2. **Da Vilaflor (Sud) – TF-21**  \n   Ideale se alloggi nella zona di Costa Adeje o Las Américas. Dopo Vilaflor (uno dei paesi più alti di tutta la Spagna), il paesaggio diventa sempre più arido, con rocce, ginestre e cespugli resistenti alla siccità. In inverno potresti trovare neve in quota mentre in spiaggia c’è ancora sole.\n\n3. **Da La Esperanza (Est) – TF-24**  \n   Probabilmente l’itinerario più scenografico. Nei giorni giusti si guida letteralmente sopra un mare di nuvole che copre il nord dell’isola. Sono presenti diversi mirador (come il Mirador de Ayosa) da cui ammirare il Teide incorniciato dalle nuvole.\n\n4. **Da Chío (Ovest) – TF-38**  \n   Meno trafficata, attraversa campi di lava nera e panorami aperti verso La Gomera, La Palma e El Hierro nelle giornate limpide. Ideale per chi cerca una strada più tranquilla e scenica.\n\n### 1.2 Punti Panoramici e Luoghi Iconici\n\n- **Roques de García:** Formazioni rocciose bizzarre e spettacolari, tra cui il celebre Roque Cinchado. Un sentiero circolare di 3,5 km ti permette di esplorare da vicino queste strutture e avere viste mozzafiato sul Teide e sulla caldera.\n- **Mirador de Llano de Ucanca:** Ampia pianura sedimentaria con vista frontale sul massiccio del Teide. Perfetta per foto con prospettiva ampia.\n- **Minas de San José:** Distese di cenere vulcanica chiara e contrasti fortissimi di colore; sembra di camminare sulla Luna. Ottimo spot al tramonto.\n- **Centro Visitatori El Portillo:** Mostre interattive su geologia, flora e fauna del parco, più un giardino botanico con specie endemiche d’alta quota come la violetta del Teide.\n\n### 1.3 Salita in Vetta: Funivia e Trekking\n\n**Funivia del Teide (Teleférico)**\n\n- **Partenza:** circa 2.356 m.\n- **Arrivo:** stazione superiore “La Rambleta” a 3.555 m.\n- **Durata:** 8 minuti circa.\n- **Biglietti:** meglio prenotarli online in anticipo, specialmente in alta stagione.\n\nDalla stazione superiore partono tre sentieri principali:\n\n1. **Verso il Pico del Teide (Telesforo Bravo):**\n\n   - Porta fino al cratere sommitale.\n   - Richiede **permesso gratuito** da richiedere sul sito del Parco Nazionale (posti limitati).\n   - Il sentiero è breve ma molto ripido e a quota elevata: attenzione a fiato corto e vertigini.\n\n2. **Verso il Mirador de la Fortaleza:**\n\n   - Sentiero relativamente semplice che conduce a un punto panoramico sul versante nord, con vista sulla valle de La Orotava.\n\n3. **Verso il Mirador de Pico Viejo:**\n   - Belvedere spettacolare sul cratere multicolore del Pico Viejo e sulla costa sud-ovest.\n   - Nelle giornate limpide si vedono La Gomera, La Palma ed El Hierro.\n\n**Trekking da Montaña Blanca – Rifugio Altavista – Vetta**  \nPer i più allenati, la salita a piedi dal parcheggio di Montaña Blanca è un’esperienza memorabile:\n\n- Dislivello notevole, serve buona preparazione.\n- Percorso di 5-6 ore fino alla zona della Rambleta.\n- Possibilità (quando operativo) di pernottare al Rifugio Altavista e salire in vetta all’alba.\n\n### 1.4 Sicurezza, Permessi e Consigli Pratici\n\n- Portare sempre **abbigliamento a strati**: in quota il vento può essere molto freddo.\n- Indossare **scarpe da trekking** con buona suola, anche se si usa la funivia.\n- Bere molta acqua: l’aria secca e l’altitudine disidratano velocemente.\n- Informarsi su **chiusure temporanee** dovute a vento forte, neve o manutenzione.\n\n### 1.5 Osservazione delle Stelle: Starlight Reserve\n\nIl Teide è uno dei posti migliori al mondo per osservare il cielo notturno. Diverse agenzie organizzano:\n\n- Trasferimento da sud o nord verso punti panoramici selezionati.\n- Cena o aperitivo al tramonto.\n- Sessione con telescopi professionali e astrofisici o guide esperte.\n\nSi possono osservare:\n\n- Pianeti (Giove, Saturno, Marte a seconda del periodo).\n- Nebulose e ammassi stellari.\n- La Via Lattea in tutta la sua estensione estiva.\n\n---",
+      "excerpt": "Il Parco Nazionale del Teide è il cuore pulsante di Tenerife e uno dei paesaggi vulcanici più spettacolari al mondo. Dichiarato Patrimonio dell’Umanità UNESCO, racchiude una caldera di circa 17 km di diametro (le Cañadas) con al centro il maestoso Teide (3.718 m), la vetta più alta di Spagna....",
+      "category": "Natura",
+      "image_url": null,
+      "image_slug": "parco-nazionale-del",
+      "images": ["teide-1.jpg", "teide-2.jpg", "teide-3.jpg", "teide-4.jpg"],
+      "structured_content": {
+        "intro": {
+          "text": "Benvenuto nel manuale definitivo sul Parco Nazionale del Teide a Tenerife, un luogo magico dove vulcani, sentieri e stelle si fondono in un paesaggio unico al mondo."
+        },
+        "highlights": [
+          "Esplora la caldera di 17 km con il maestoso Teide, la vetta più alta di Spagna",
+          "Scopri le 4 strade panoramiche per raggiungere il parco e ammira paesaggi mozzafiato",
+          "Goditi punti panoramici iconici come Roques de García e Mirador de Llano de Ucanca",
+          "Salta sulla Funivia del Teide per sentieri verso la vetta o opta per un trekking emozionante",
+          "Vivi un'esperienza unica di osservazione stellare nella Starlight Reserve"
+        ],
+        "sections": [
+          {
+            "title": "Come Raggiungere il Parco: Le 4 Strade Panoramiche",
+            "content": "Scopri le diverse strade panoramiche che ti condurranno attraverso paesaggi unici, dalle valli verdi ai panorami aridi, offrendoti un viaggio suggestivo verso il Parco Nazionale del Teide.",
+            "type": "text"
+          },
+          {
+            "title": "Punti Panoramici e Luoghi Iconici",
+            "content": "Esplora formazioni rocciose uniche, ampie pianure con vista sul Teide, distese di cenere vulcanica e approfondisci la geologia del parco presso il Centro Visitatori El Portillo.",
+            "type": "text"
+          },
+          {
+            "title": "Salita in Vetta: Funivia e Trekking",
+            "content": "Scegli se salire alla vetta con la comoda funivia del Teide o affrontare un emozionante trekking da Montaña Blanca, con sentieri che ti porteranno a panorami mozzafiato e esperienze indimenticabili.",
+            "type": "text"
+          },
+          {
+            "title": "Sicurezza, Permessi e Consigli Pratici",
+            "content": "Metti in pratica consigli importanti per goderti al meglio l'esperienza, dall'abbigliamento adeguato all'informazione su possibili chiusure temporanee per garantire la tua sicurezza durante la visita.",
+            "type": "text"
+          },
+          {
+            "title": "Osservazione delle Stelle: Starlight Reserve",
+            "content": "Esplora il cielo notturno presso la Starlight Reserve del Teide con sessioni di osservazione guidate da esperti, offrendoti la possibilità unica di ammirare pianeti, nebulose e la maestosa Via Lattea.",
+            "type": "text"
+          }
+        ],
+        "tips": [
+          {
+            "title": "Abbigliamento Adeguato",
+            "text": "Porta sempre con te abbigliamento a strati per affrontare variazioni climatiche in quota e proteggerti dal freddo."
+          },
+          {
+            "title": "Idratazione Importante",
+            "text": "Assicurati di bere a sufficienza, poiché l'aria secca e l'altitudine possono causare disidratazione rapida durante la visita al parco."
+          }
+        ],
+        "conclusion": {
+          "text": "In sintesi, il Parco Nazionale del Teide ti attende con la sua bellezza selvaggia e la sua atmosfera unica, pronta a regalarti esperienze indimenticabili. Non perdere l'occasione di esplorare questo gioiello geologico e celeste!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514610"
+    },
+    {
+      "id": 2,
+      "title": "Siam Park: Masterclass nel Parco Acquatico Numero Uno al Mondo",
+      "slug": "siam-park-masterclass-nel-parco-acquatico-numero-uno-al-mondo",
+      "content": "Siam Park, a Costa Adeje, è molto più di un parco acquatico: è un vero parco tematico a tema thailandese, curato nei minimi dettagli, tra statue, giardini esotici e specchi d’acqua. Per molti viaggiatori rappresenta un motivo sufficiente per scegliere Tenerife come meta di vacanza.\n\n### 2.1 Organizzare la Visita\n\n- **Orari:** in genere 10:00–18:00 (più lunghi in estate). Controlla sempre il sito ufficiale per eventuali cambi di orario.\n- **Biglietti:** consigliata la prenotazione online, soprattutto in alta stagione. Sono disponibili combinazioni come il **Twin Ticket** (Siam Park + Loro Parque).\n- **Fast Pass:** fortemente raccomandato nei periodi di massimo afflusso; riduce drasticamente le attese nelle attrazioni top.\n\n### 2.2 Attrazioni Adrenaliniche\n\n- **Tower of Power:** il simbolo del parco. Una caduta quasi verticale in un tubo trasparente che attraversa un acquario con squali e razze. È brevissima ma intensissima.\n- **The Dragon:** grande imbuto in cui, a bordo di un gommone, si sperimenta un effetto di assenza di peso. Luci e design creano un’atmosfera surreale.\n- **Kinnaree:** scivolo con gommoni multiposto, curve ripide e un’onda artificiale finale.\n- **Vulcano:** attrazione al buio con giochi di luce, perfetta per chi ama le sorprese.\n\n### 2.3 Aree Relax e Familiari\n\n- **Mai Thai River:** fiume artificiale che circonda parte del parco. Alcuni tratti sono rilassanti, altri più veloci con rapide e piccole cascate.\n- **Siam Beach:** spiaggia artificiale con sabbia chiara e grandi palme. Perfetta per chi vuole una pausa tra uno scivolo e l’altro.\n- **The Lost City:** area dedicata ai bambini, con scivoli più piccoli, spruzzi d’acqua e giochi sicuri.\n\n### 2.4 Consigli Pratici\n\n- Porta **ciabatte antiscivolo**: alcune superfici possono scaldarsi al sole.\n- Utilizza gli **armadietti** per riporre oggetti di valore.\n- Applica spesso **crema solare** resistente all’acqua.\n- Se vuoi foto professionali, sfrutta i fotografi del parco presenti sulle attrazioni principali.\n\n---",
+      "excerpt": "Siam Park, a Costa Adeje, è molto più di un parco acquatico: è un vero parco tematico a tema thailandese, curato nei minimi dettagli, tra statue, giardini esotici e specchi d’acqua. Per molti viaggiatori rappresenta un motivo sufficiente per scegliere Tenerife come meta di vacanza.\n- **Orari:** in...",
+      "category": "Divertimento",
+      "image_url": null,
+      "image_slug": "siam-park",
+      "images": [
+        "siam-park-1.webp",
+        "siam-park-2.webp",
+        "siam-park-3.webp",
+        "siam-park-4.webp",
+        "siam-park-5.webp",
+        "siam-park-6.webp",
+        "siam-park-7.webp",
+        "siam-park-8.webp"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Immergiti in un'avventura thailandese a Tenerife con Siam Park, il parco acquatico che va oltre le aspettative. Scopri come pianificare la tua visita e quali attrazioni non perdere in questa masterclass di divertimento e adrenalina."
+        },
+        "highlights": [
+          "Siam Park: un parco tematico unico al mondo a Costa Adeje",
+          "Consigli pratici per ottimizzare la tua esperienza",
+          "Attrazioni adrenaliniche e aree relax per tutti i gusti"
+        ],
+        "sections": [
+          {
+            "title": "Organizzare la Visita",
+            "content": "Siam Park è aperto in genere dalle 10:00 alle 18:00, ma gli orari possono variare, specialmente in estate. Prenotare i biglietti online è consigliato, soprattutto durante i periodi di maggiore affluenza. Il Fast Pass è un'opzione da non sottovalutare per evitare lunghe code."
+          },
+          {
+            "title": "Attrazioni Adrenaliniche",
+            "content": "Tra le attrazioni adrenaliniche imperdibili ci sono la Tower of Power, che offre un'emozionante caduta in un tubo trasparente attraverso un acquario di squali, e il Dragon, un grande imbuto che regala un'esperienza di assenza di peso unica. Anche il Kinnaree e il Vulcano promettono emozioni intense e sorprese."
+          },
+          {
+            "title": "Aree Relax e Familiari",
+            "content": "Se preferisci momenti di relax, il Mai Thai River offre un percorso tranquillo e panoramico, mentre Siam Beach ti accoglie con sabbia chiara e palme per una pausa rigenerante. Per le famiglie, The Lost City è l'area ideale con scivoli sicuri e spruzzi d'acqua divertenti."
+          }
+        ],
+        "tips": [
+          {
+            "title": "Porta ciabatte antiscivolo",
+            "text": "Alcune superfici possono surriscaldarsi sotto il sole, quindi assicurati di avere ciabatte adatte per camminare comodamente."
+          },
+          {
+            "title": "Utilizza gli armadietti",
+            "text": "Per maggiore sicurezza, riponi i tuoi oggetti di valore negli armadietti disponibili in loco e goditi le attrazioni senza preoccupazioni."
+          }
+        ],
+        "conclusion": {
+          "text": "Con Siam Park, Tenerife si conferma una meta irresistibile per gli amanti del divertimento e del relax. Pianifica la tua visita, preparati a vivere emozioni uniche e goditi ogni istante in questo paradiso acquatico."
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514617"
+    },
+    {
+      "id": 3,
+      "title": "Parco Rurale di Anaga: Trekking nella Foresta Preistorica",
+      "slug": "parco-rurale-di-anaga-trekking-nella-foresta-preistorica",
+      "content": "Il Parco Rurale di Anaga, nel nord-est di Tenerife, è uno dei luoghi più magici dell’isola. Grazie alla sua antichità geologica e alla costante influenza degli alisei, conserva una foresta di laurisilva che un tempo ricopriva gran parte dell’Europa meridionale. Qui si cammina tra nebbie leggere, alberi contorti e felci giganti.\n\n### 3.1 Accessi Principali\n\n- **Da La Laguna a Cruz del Carmen:** è l’ingresso più comune, con parcheggio, centro visitatori e vari sentieri segnalati.\n- **Da Santa Cruz verso la dorsale di Anaga:** strada panoramica con viste spettacolari sulla capitale e sull’oceano.\n- **Dai paesi costieri (Taganana, Benijo):** accessi che partono praticamente dal livello del mare, con dislivelli impegnativi.\n\n### 3.2 Sentieri Consigliati\n\n1. **Sendero de los Sentidos (Cruz del Carmen):**\n\n   - Percorsi ad anello di diversa lunghezza, tutti facili.\n   - Adatti a famiglie e a chi vuole un primo assaggio della laurisilva.\n   - Pannelli informativi invitano a chiudere gli occhi, annusare, toccare la corteccia degli alberi.\n\n2. **Bosque Encantado – El Pijaral:**\n\n   - Uno dei sentieri più famosi e protetti.\n   - Richiede **permesso gratuito giornaliero** da prenotare online (posti molto limitati).\n   - Si cammina in un ambiente quasi fiabesco, con alberi ricoperti di muschio e felci enormi.\n\n3. **Afur – Playa de Tamadite – Taganana:**\n   - Percorso ad anello più lungo e impegnativo.\n   - Scende lungo una gola con un piccolo corso d’acqua fino alla spiaggia selvaggia di Tamadite, per poi risalire verso il villaggio di Taganana.\n   - Offre un mix perfetto di montagna, fiume e costa.\n\n### 3.3 Clima, Attrezzatura e Sicurezza\n\n- Anaga è spesso coperta da nubi basse: aspettati pioggia sottile, umidità e visibilità ridotta.\n- Usa scarpe da trekking con buona aderenza, il terreno può essere scivoloso.\n- Porta una giacca impermeabile leggera anche in estate.\n\n### 3.4 Villaggi e Gastronomia\n\nDopo le escursioni, fermati nei piccoli paesi della zona:\n\n- **Taganana:** famoso per i ristoranti di pesce e i panorami sull’oceano.\n- **Casas de Afur, Roque Negro:** minuscoli insediamenti rurali dove il tempo sembra essersi fermato.\n\nPiatti da provare:\n\n- Stufati di carne e verdure (puchero).\n- Formaggi locali con mojo.\n- Pesce fresco alla griglia nelle taverne costiere.\n\n---",
+      "excerpt": "Il Parco Rurale di Anaga, nel nord-est di Tenerife, è uno dei luoghi più magici dell’isola. Grazie alla sua antichità geologica e alla costante influenza degli alisei, conserva una foresta di laurisilva che un tempo ricopriva gran parte dell’Europa meridionale. Qui si cammina tra nebbie leggere,...",
+      "category": "Natura",
+      "image_url": null,
+      "image_slug": "parco-rurale-di",
+      "images": [
+        "anaga-1.webp",
+        "anaga-2.webp",
+        "anaga-3.webp",
+        "anaga-4.webp",
+        "anaga-5.webp",
+        "anaga-6.webp",
+        "anaga-7.webp"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Immergiti nella magia del Parco Rurale di Anaga a Tenerife, un luogo intriso di antichità geologica e fascino selvaggio che ti condurrà in una foresta preistorica unica al mondo."
+        },
+        "highlights": [
+          "Esplora una foresta di laurisilva che un tempo ricopriva l'Europa meridionale",
+          "Scopri sentieri incantevoli tra alberi contorti e felci giganti",
+          "Assapora la gastronomia locale nei pittoreschi villaggi circostanti"
+        ],
+        "sections": [
+          {
+            "title": "Accessi Principali",
+            "content": "Scopri i principali punti di accesso al Parco Rurale di Anaga, da La Laguna a Cruz del Carmen con servizi completi, a Santa Cruz con viste mozzafiato, e dai paesi costieri con percorsi sfidanti.",
+            "type": "list"
+          },
+          {
+            "title": "Sentieri Consigliati",
+            "content": "Per una full immersion nella bellezza del parco, percorri il Sendero de los Sentidos a Cruz del Carmen, esplora il Bosque Encantado – El Pijaral e affronta l'avventuroso percorso Afur – Playa de Tamadite – Taganana.",
+            "type": "list"
+          },
+          {
+            "title": "Clima, Attrezzatura e Sicurezza",
+            "content": "Preparati per il clima variabile di Anaga con pioggia sottile e umidità costante. Assicurati di indossare scarpe da trekking adatte e porta sempre con te una giacca impermeabile leggera.",
+            "type": "text"
+          },
+          {
+            "title": "Villaggi e Gastronomia",
+            "content": "Dopo le escursioni, concediti una sosta nei pittoreschi villaggi circostanti come Taganana e Casas de Afur per assaporare prelibatezze locali come stufati di carne, formaggi con mojo e pesce fresco alla griglia.",
+            "type": "text"
+          }
+        ],
+        "tips": [
+          {
+            "title": "Riserva il tuo permesso per il Bosque Encantado",
+            "text": "Prima di partire, assicurati di prenotare online il permesso gratuito per accedere al suggestivo Bosque Encantado, ricco di atmosfera fiabesca."
+          },
+          {
+            "title": "Fai una pausa culinaria a Taganana",
+            "text": "Non perdere l'opportunità di gustare piatti di pesce fresco e godere di panorami mozzafiato nel villaggio di Taganana dopo un'intensa giornata di trekking."
+          }
+        ],
+        "conclusion": {
+          "text": "In sintesi, il Parco Rurale di Anaga è un tesoro naturale da esplorare per gli amanti della natura e degli scenari mozzafiato. Preparati a vivere un'avventura indimenticabile che ti porterà in un viaggio nel tempo tra paesaggi unici e sapori autentici."
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514620"
+    },
+    {
+      "id": 4,
+      "title": "Whale Watching a Tenerife: Guida Etica all’Avvistamento di Balene e Delfini",
+      "slug": "whale-watching-a-tenerife-guida-etica-allavvistamento-di-balene-e-delfini",
+      "content": "Il tratto di mare tra Tenerife e La Gomera è uno dei migliori spot in Europa per osservare cetacei allo stato libero. La presenza di correnti oceaniche profonde e nutrienti favorisce un ecosistema ricco, in cui vivono stabilmente gruppi di globicefali (pilot whales) e delfini tursiopi.\n\n### 4.1 Porti di Partenza\n\n- **Los Cristianos:** storico porto con numerosi operatori, ideale se alloggi da quella parte dell’isola.\n- **Puerto Colón (Costa Adeje):** base di molti catamarani moderni, spesso con tour di diverse durate.\n- **Los Gigantes:** punto di partenza scenografico, con le scogliere come sfondo.\n\n### 4.2 Scegliere un Operatore Responsabile\n\nPer un’esperienza etica e sostenibile, cerca imbarcazioni con il marchio **“Barco Azul”**. Questo garantisce il rispetto di regole precise:\n\n- Distanze minime dagli animali.\n- Tempo limitato di permanenza con lo stesso gruppo.\n- Divieto di inseguire o accerchiare i cetacei.\n- Divieto di entrare in acqua con loro.\n\n### 4.3 Tipologie di Tour\n\n- **Tour di 2–3 ore:** perfetti per chi ha poco tempo o soffre di mal di mare.\n- **Tour di mezza giornata (4–5 ore):** spesso includono pranzo o snack, bevande e una sosta per nuotare in una baia riparata.\n\nLe condizioni del mare possono cambiare rapidamente: se sei sensibile, prendi un farmaco per il mal di mare (consultando il medico) e scegli imbarcazioni più grandi per maggiore stabilità.\n\n### 4.4 Cosa Portare\n\n- Cappello e crema solare.\n- Giacca leggera: il vento in mare può essere fresco anche in estate.\n- Macchina fotografica o binocolo per osservare meglio i cetacei.\n- Eventuali pastiglie per il mal di mare.\n\n---",
+      "excerpt": "Il tratto di mare tra Tenerife e La Gomera è uno dei migliori spot in Europa per osservare cetacei allo stato libero. La presenza di correnti oceaniche profonde e nutrienti favorisce un ecosistema ricco, in cui vivono stabilmente gruppi di globicefali (pilot whales) e delfini tursiopi.\n- **Los...",
+      "category": "Mare",
+      "image_url": null,
+      "image_slug": "whale-watching-a",
+      "images": [
+        "dolphins-1.jpg",
+        "dolphins-2.jpg",
+        "dolphins-3.jpg",
+        "adeje-1.webp",
+        "adeje-2.webp",
+        "playa-1.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Se sei appassionato di avvistamento di balene e delfini, Tenerife è la meta perfetta per te. Scopri come vivere un'esperienza etica e coinvolgente in uno dei migliori spot di tutta Europa."
+        },
+        "highlights": [
+          "Avvistamento di cetacei in libertà tra Tenerife e La Gomera",
+          "Scelta di operatori responsabili con il marchio 'Barco Azul'",
+          "Diverse tipologie di tour per adattarsi alle tue esigenze"
+        ],
+        "sections": [
+          {
+            "title": "Porti di Partenza",
+            "content": "**Los Cristianos:** storico porto con numerosi operatori, **Puerto Colón (Costa Adeje):** base di molti catamarani moderni, **Los Gigantes:** punto di partenza scenografico.",
+            "type": "list"
+          },
+          {
+            "title": "Scegliere un Operatore Responsabile",
+            "content": "Per un’esperienza etica e sostenibile, cerca imbarcazioni con il marchio 'Barco Azul', che garantisce il rispetto di regole precise come distanze minime dagli animali e divieto di inseguirli.",
+            "type": "text"
+          },
+          {
+            "title": "Tipologie di Tour",
+            "content": "**Tour di 2–3 ore:** perfetti per chi ha poco tempo o soffre di mal di mare, **Tour di mezza giornata (4–5 ore):** spesso includono pranzo o snack e una sosta per nuotare in una baia riparata.",
+            "type": "list"
+          },
+          {
+            "title": "Cosa Portare",
+            "content": "Ricordati di portare cappello, crema solare, giacca leggera, macchina fotografica o binocolo e eventuali pastiglie per il mal di mare.",
+            "type": "list"
+          }
+        ],
+        "tips": [
+          {
+            "title": "Prendi un farmaco per il mal di mare",
+            "text": "Le condizioni del mare possono cambiare rapidamente, quindi se sei sensibile consulta il medico e prendi eventuali precauzioni."
+          }
+        ],
+        "conclusion": {
+          "text": "Con queste informazioni sei pronto per vivere un'indimenticabile avventura tra le acque di Tenerife. Scegli con cura l'operatore e goditi il meraviglioso spettacolo della natura che ti attende!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514623"
+    },
+    {
+      "id": 5,
+      "title": "Masca e il Massiccio del Teno: Strade Vertiginose e Gole Spettacolari",
+      "slug": "masca-e-il-massiccio-del-teno-strade-vertiginose-e-gole-spettacolari",
+      "content": "Masca, nel massiccio del Teno, è uno dei paesaggi più scenografici di Tenerife. Il villaggio sembra incastonato in un anfiteatro naturale di rocce basaltiche, con case tradizionali che si aggrappano alle creste.\n\n### 5.1 Il Villaggio di Masca\n\n- Case in pietra con tetti rossi che seguono l’andamento della montagna.\n- Terrazzamenti coltivati con viti, cactus e piante da frutto.\n- Piccoli bar e ristoranti con viste mozzafiato sulla gola e sull’oceano.\n\n### 5.2 Il Barranco di Masca\n\nPer anni è stato uno dei trekking più popolari dell’isola, scendendo dal villaggio fino a una spiaggia isolata. Attualmente l’accesso è regolamentato e soggetto a cambiamenti:\n\n- È spesso necessario prenotare l’accesso e rispettare determinate fasce orarie.\n- Il sentiero è impegnativo, con tratti scoscesi e passaggi su rocce.\n\nInformati sempre sulle condizioni aggiornate presso i canali ufficiali prima di pianificare l’escursione.\n\n### 5.3 Il Parco Rurale del Teno\n\nOltre a Masca, il Teno offre:\n\n- Strade panoramiche verso **Buena Vista del Norte** e il **Faro del Teno**.\n- Mirador con viste sulle scogliere e sull’oceano.\n- Piccoli paesi rurali dove la vita scorre ancora secondo ritmi tradizionali.\n\n---",
+      "excerpt": "Masca, nel massiccio del Teno, è uno dei paesaggi più scenografici di Tenerife. Il villaggio sembra incastonato in un anfiteatro naturale di rocce basaltiche, con case tradizionali che si aggrappano alle creste.\n- Case in pietra con tetti rossi che seguono l’andamento della montagna.\n-...",
+      "category": "Natura",
+      "image_url": null,
+      "image_slug": "masca-e-il",
+      "images": [
+        "masca-valley.jpg",
+        "hiking-1.jpg",
+        "hiking-2.webp",
+        "hiking-3.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Immergiti nelle strade vertiginose e nelle gole spettacolari di Masca e del Massiccio del Teno, uno dei paesaggi più scenografici di Tenerife. Scopri un villaggio incastonato in un anfiteatro naturale di rocce basaltiche, con case tradizionali che si affacciano sulle creste."
+        },
+        "highlights": [
+          "Masca: un villaggio pittoresco tra rocce basaltiche e terrazzamenti coltivati",
+          "Barranco di Masca: un trekking suggestivo verso una spiaggia isolata",
+          "Parco Rurale del Teno: strade panoramiche e paesi rurali tradizionali"
+        ],
+        "sections": [
+          {
+            "title": "Il Villaggio di Masca",
+            "content": "Case in pietra con tetti rossi che seguono l’andamento della montagna.\n\nTerrazzamenti coltivati con viti, cactus e piante da frutto.\n\nPiccoli bar e ristoranti con viste mozzafiato sulla gola e sull’oceano.",
+            "type": "list"
+          },
+          {
+            "title": "Il Barranco di Masca",
+            "content": "Per anni è stato uno dei trekking più popolari dell’isola, scendendo dal villaggio fino a una spiaggia isolata. Attualmente l’accesso è regolamentato e soggetto a cambiamenti:\n\n- È spesso necessario prenotare l’accesso e rispettare determinate fasce orarie.\n- Il sentiero è impegnativo, con tratti scoscesi e passaggi su rocce.\n\nInformati sempre sulle condizioni aggiornate presso i canali ufficiali prima di pianificare l’escursione.",
+            "type": "text"
+          },
+          {
+            "title": "Il Parco Rurale del Teno",
+            "content": "Oltre a Masca, il Teno offre:\n\n- Strade panoramiche verso Buena Vista del Norte e il Faro del Teno.\n- Mirador con viste sulle scogliere e sull’oceano.\n- Piccoli paesi rurali dove la vita scorre ancora secondo ritmi tradizionali.",
+            "type": "list"
+          }
+        ],
+        "tips": [
+          {
+            "title": "Prenotazioni e Accesso",
+            "text": "Ricorda di verificare sempre le regole di accesso e possibili restrizioni prima di intraprendere l'escursione a Masca e nel Barranco di Masca."
+          },
+          {
+            "title": "Calzature e Attrezzatura",
+            "text": "Indossa scarpe da trekking adeguate e porta con te l'attrezzatura necessaria per affrontare il percorso impegnativo del Barranco di Masca."
+          }
+        ],
+        "conclusion": {
+          "text": "Esplora Masca e il Massiccio del Teno per vivere un'esperienza unica tra paesaggi mozzafiato e tradizioni rurali. Pianifica con cura e goditi la bellezza di questo angolo di Tenerife!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514626"
+    },
+    {
+      "id": 6,
+      "title": "Costa Adeje, Las Américas e Los Cristianos: Resort, Spiagge e Nightlife",
+      "slug": "costa-adeje-las-americas-e-los-cristianos-resort-spiagge-e-nightlife",
+      "content": "La fascia costiera tra Costa Adeje, Playa de las Américas e Los Cristianos è il principale polo turistico del sud di Tenerife. Qui trovi hotel di tutte le categorie, ristoranti internazionali, bar, discoteche e centri commerciali moderni.\n\n### 6.1 Spiagge Principali\n\n- **Playa de las Vistas (Los Cristianos):** lunga spiaggia di sabbia chiara, mare tranquillo, perfetta per famiglie.\n- **Playa de Troya (Las Américas):** cuore della movida, vicina a pub e discoteche.\n- **Playa del Duque (Costa Adeje):** atmosfera elegante, circondata da boutique hotel e negozi di lusso.\n\n### 6.2 Attività e Servizi\n\n- Sport acquatici (jet ski, parasailing, paddle surf).\n- Escursioni in barca per cetacei e gite a La Gomera.\n- Shopping nei centri commerciali come **Siam Mall** o **Plaza del Duque**.\n\n---",
+      "excerpt": "La fascia costiera tra Costa Adeje, Playa de las Américas e Los Cristianos è il principale polo turistico del sud di Tenerife. Qui trovi hotel di tutte le categorie, ristoranti internazionali, bar, discoteche e centri commerciali moderni.\n- **Playa de las Vistas (Los Cristianos):** lunga spiaggia...",
+      "category": "Mare",
+      "image_url": null,
+      "image_slug": "costa-adeje-las",
+      "images": [
+        "adeje-3.jpg",
+        "adeje-4.jpg",
+        "adeje-5.avif",
+        "adeje-6.jpeg",
+        "adeje-7.jpg",
+        "adeje-8.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Scopri la vibrante costa sud di Tenerife, da Costa Adeje a Las Américas passando per Los Cristianos. Un mix perfetto di resort di lusso, spiagge mozzafiato e vita notturna movimentata ti aspetta!"
+        },
+        "highlights": [
+          "Polo turistico principale del sud di Tenerife",
+          "Hotel di ogni categoria, ristoranti internazionali e discoteche",
+          "Spiagge incantevoli e attività acquatiche emozionanti"
+        ],
+        "sections": [
+          {
+            "title": "Spiagge Principali",
+            "content": "Playa de las Vistas (Los Cristianos): lunga spiaggia di sabbia chiara, mare tranquillo, perfetta per famiglie.\n\nPlaya de Troya (Las Américas): cuore della movida, vicina a pub e discoteche.\n\nPlaya del Duque (Costa Adeje): atmosfera elegante, circondata da boutique hotel e negozi di lusso.",
+            "type": "list"
+          },
+          {
+            "title": "Attività e Servizi",
+            "content": "Sport acquatici (jet ski, parasailing, paddle surf).\n\nEscursioni in barca per cetacei e gite a La Gomera.\n\nShopping nei centri commerciali come Siam Mall o Plaza del Duque.",
+            "type": "list"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Immergiti nell'atmosfera unica di Costa Adeje, Las Américas e Los Cristianos e vivi un'esperienza indimenticabile a Tenerife. Pianifica la tua prossima vacanza e concediti relax, divertimento e tanto sole!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514628"
+    },
+    {
+      "id": 7,
+      "title": "Puerto de la Cruz: Il Fascino del Nord tra Mare, Giardini e Storia",
+      "slug": "puerto-de-la-cruz-il-fascino-del-nord-tra-mare-giardini-e-storia",
+      "content": "Puerto de la Cruz, nella costa nord, unisce il fascino di un antico porto canario con un’anima moderna e turistica.\n\n### 7.1 Cosa Vedere\n\n- **Lago Martiánez:** complesso di piscine di acqua di mare progettato da César Manrique, con opere d’arte integrate nel paesaggio.\n- **Centro Storico:** piazze alberate, vie pedonali, ristoranti tipici e bar con musica dal vivo.\n- **Playa Jardín:** spiaggia di sabbia nera con giardini lussureggianti, vista sul Teide e ottimo scenario fotografico.\n\n---",
+      "excerpt": "Puerto de la Cruz, nella costa nord, unisce il fascino di un antico porto canario con un’anima moderna e turistica.\n- **Lago Martiánez:** complesso di piscine di acqua di mare progettato da César Manrique, con opere d’arte integrate nel paesaggio.\n- **Centro Storico:** piazze alberate, vie...",
+      "category": "Cultura",
+      "image_url": null,
+      "image_slug": "puerto-de-la",
+      "images": [
+        "puerto-1.webp",
+        "puerto-2.webp",
+        "puerto-3.webp",
+        "puerto-4.webp",
+        "puerto-5.webp",
+        "puerto-6.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Benvenuto a Puerto de la Cruz, una gemma della costa nord di Tenerife che fonde storia, natura e modernità in un mix irresistibile."
+        },
+        "highlights": [
+          "Esplora il suggestivo Lago Martiánez progettato da César Manrique",
+          "Perditi tra le vie alberate del Centro Storico tra ristoranti e musica dal vivo",
+          "Rilassati sulla spiaggia di sabbia nera di Playa Jardín con vista sul Teide"
+        ],
+        "sections": [
+          {
+            "title": "Cosa Vedere",
+            "content": "Scopri il suggestivo Lago Martiánez, un complesso di piscine di acqua di mare integrate con opere d'arte di César Manrique. Passeggia nel Centro Storico tra piazze alberate, ristoranti tipici e bar con musica dal vivo. Approfitta della vista spettacolare sul Teide dalla spiaggia di sabbia nera di Playa Jardín.",
+            "type": "list"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Immergiti nell'atmosfera unica di Puerto de la Cruz, dove storia e modernità si abbracciano. Non perdere l'occasione di vivere un'esperienza autentica tra mare, giardini e arte. Prenota ora il tuo viaggio e lasciati conquistare dal fascino del nord di Tenerife!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514631"
+    },
+    {
+      "id": 8,
+      "title": "Loro Parque: Parco Faunistico di Riferimento Mondiale",
+      "slug": "loro-parque-parco-faunistico-di-riferimento-mondiale",
+      "content": "Loro Parque, a Puerto de la Cruz, è uno dei parchi faunistici più noti al mondo, riconosciuto per i suoi standard di benessere animale e i programmi di conservazione.\n\n### 8.1 Aree Tematiche\n\n- **Planet Penguin:** enorme habitat per pinguini con neve artificiale e clima controllato.\n- **Aquarium:** tunnel subacquei per osservare squali, razze e migliaia di pesci tropicali.\n- **Aviari di pappagalli:** tra le collezioni più ampie al mondo di psittacidi.\n\nDedica almeno una giornata intera alla visita: il parco è grande e ricchissimo di spettacoli, mostre e aree verdi.\n\n---",
+      "excerpt": "Loro Parque, a Puerto de la Cruz, è uno dei parchi faunistici più noti al mondo, riconosciuto per i suoi standard di benessere animale e i programmi di conservazione.\n- **Planet Penguin:** enorme habitat per pinguini con neve artificiale e clima controllato.\n- **Aquarium:** tunnel subacquei per...",
+      "category": "Divertimento",
+      "image_url": null,
+      "image_slug": "loro-parque",
+      "images": [
+        "loro-parque-1.webp",
+        "loro-parque-2.webp",
+        "loro-parque-3.webp",
+        "loro-parque-4.webp",
+        "loro-parque-5.webp",
+        "loro-parque-6.webp",
+        "loro-parque-7.webp",
+        "loro-parque-8.webp"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Benvenuti a Loro Parque, il rinomato parco faunistico di Puerto de la Cruz, famoso per il suo impegno nel benessere degli animali e nei programmi di conservazione."
+        },
+        "highlights": [
+          "Loro Parque è uno dei parchi faunistici più conosciuti al mondo",
+          "Standards elevati di benessere animale e conservazione",
+          "Aree tematiche sorprendenti come Planet Penguin e Aquarium"
+        ],
+        "sections": [
+          {
+            "title": "Aree Tematiche",
+            "content": "**Planet Penguin:** enorme habitat per pinguini con neve artificiale e clima controllato.\n\n**Aquarium:** tunnel subacquei per osservare squali, razze e migliaia di pesci tropicali.\n\n**Aviari di pappagalli:** tra le collezioni più ampie al mondo di psittacidi.\n\nDedica almeno una giornata intera alla visita: il parco è grande e ricchissimo di spettacoli, mostre e aree verdi.",
+            "type": "list"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "In sintesi, Loro Parque è un'esperienza imperdibile per gli amanti degli animali e della natura. Pianifica la tua visita per esplorare le meraviglie delle sue aree tematiche e goderti spettacoli indimenticabili."
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514633"
+    },
+    {
+      "id": 9,
+      "title": "Garachico: Rinascita dopo il Vulcano",
+      "slug": "garachico-rinascita-dopo-il-vulcano",
+      "content": "Garachico è un gioiello storico della costa nord. Un’eruzione nel 1706 distrusse il porto e parte della città, ma oggi il paese è stato magnificamente restaurato.\n\n### 9.1 Cosa Fare\n\n- Fare il bagno nelle **piscine naturali di El Caletón**, formate dalla lava solidificata.\n- Passeggiare nel centro storico tra chiese, conventi e palazzi nobiliari.\n- Salire al **mirador** sopra il paese per una vista completa su Garachico e sull’isolotto.\n\n---",
+      "excerpt": "Garachico è un gioiello storico della costa nord. Un’eruzione nel 1706 distrusse il porto e parte della città, ma oggi il paese è stato magnificamente restaurato.\n- Fare il bagno nelle **piscine naturali di El Caletón**, formate dalla lava solidificata.\n- Passeggiare nel centro storico tra chiese,...",
+      "category": "Cultura",
+      "image_url": null,
+      "image_slug": "garachico",
+      "images": [
+        "garachico-1.jpg",
+        "garachico-2.jpg",
+        "garachico-3.jpg",
+        "garachico-4.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Scopri Garachico, un gioiello storico sulla costa nord di Tenerife che, nonostante la distruzione causata da un'eruzione nel 1706, si è splendidamente rigenerato."
+        },
+        "highlights": [
+          "Garachico, tesoro storico sulla costa nord di Tenerife",
+          "Magnifica ricostruzione dopo l'eruzione del 1706",
+          "Piscine naturali di El Caletón, imperdibili per un bagno unico",
+          "Centro storico ricco di chiese e palazzi nobiliari",
+          "Vista mozzafiato dal mirador sopra il paese"
+        ],
+        "sections": [
+          {
+            "title": "Cosa Fare",
+            "content": "Fai il bagno nelle piscine naturali di El Caletón, passeggia nel centro storico tra chiese, conventi e palazzi nobiliari, e sali al mirador per ammirare Garachico e l'isolotto.",
+            "type": "list"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Esplora la bellezza e la storia di Garachico, un luogo che ha saputo risorgere dalle ceneri con maestria. Non perderti l'occasione di vivere questa esperienza unica!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514636"
+    },
+    {
+      "id": 10,
+      "title": "La Laguna: Città Universitaria Patrimonio dell’Umanità",
+      "slug": "la-laguna-citta-universitaria-patrimonio-dellumanita",
+      "content": "San Cristóbal de La Laguna, vicino a Santa Cruz, è una città coloniale dal tracciato a griglia, modello per molte città dell’America Latina.\n\n### 10.1 Punti di Interesse\n\n- Cattedrale di La Laguna e numerose chiese storiche.\n- Vie pedonali ricche di negozi, bar e locali dove incontrare studenti universitari.\n- Palazzi storici con cortili interni visitabili.\n\n---",
+      "excerpt": "San Cristóbal de La Laguna, vicino a Santa Cruz, è una città coloniale dal tracciato a griglia, modello per molte città dell’America Latina.\n- Cattedrale di La Laguna e numerose chiese storiche.\n- Vie pedonali ricche di negozi, bar e locali dove incontrare studenti universitari.\n- Palazzi storici...",
+      "category": "Cultura",
+      "image_url": null,
+      "image_slug": "la-laguna",
+      "images": ["la-laguna-1.jpg", "santacruz-3.png"],
+      "structured_content": {
+        "intro": {
+          "text": "Benvenuto a La Laguna, una città universitaria dal fascino coloniale che ti incanterà con le sue vie pedonali animate e i suoi palazzi storici."
+        },
+        "highlights": [
+          "Cattedrale di La Laguna e chiese storiche da non perdere",
+          "Atmosfera vivace con studenti universitari e locali accoglienti",
+          "Palazzi storici con cortili interni da esplorare"
+        ],
+        "sections": [
+          {
+            "title": "Architettura Coloniale",
+            "content": "San Cristóbal de La Laguna è un perfetto esempio di città coloniale, con il suo tracciato a griglia che ha ispirato molte città dell'America Latina."
+          },
+          {
+            "title": "Punti di Interesse",
+            "content": "La città vanta la maestosa Cattedrale di La Laguna e numerose chiese storiche, insieme a vie pedonali animate ricche di negozi, bar e locali frequentati dagli studenti universitari. Da non perdere i palazzi storici con i loro suggestivi cortili interni."
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Immergiti nell'atmosfera unica di La Laguna, tra storia, cultura e vitalità giovanile. Una tappa imperdibile per chi visita Tenerife!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514638"
+    },
+    {
+      "id": 11,
+      "title": "Gastronomia di Tenerife: Piatti Tipici e Guachinche",
+      "slug": "gastronomia-di-tenerife-piatti-tipici-e-guachinche",
+      "content": "La cucina di Tenerife è basata su ingredienti semplici ma genuini, con forti influenze spagnole e latinoamericane.\n\n### 11.1 Piatti Iconici\n\n- **Papas arrugadas con mojo:** patate novelle cotte in acqua molto salata, servite con salse al peperoncino (mojo rojo) o al coriandolo/prezzemolo (mojo verde).\n- **Gofio:** farina di cereali tostati usata in zuppe, dolci o come contorno.\n- **Queso asado:** formaggio grigliato, servito con mojo.\n- Stufati di carne, pesce fresco, polpo alla griglia.\n\n### 11.2 Guachinche\n\nI **guachinche** sono locali tradizionali (soprattutto nel nord) dove famiglie produttrici di vino servono piatti tipici in un ambiente informale. Sono il luogo perfetto per un’esperienza gastronomica autentica.\n\n---",
+      "excerpt": "La cucina di Tenerife è basata su ingredienti semplici ma genuini, con forti influenze spagnole e latinoamericane.\n- **Papas arrugadas con mojo:** patate novelle cotte in acqua molto salata, servite con salse al peperoncino (mojo rojo) o al coriandolo/prezzemolo (mojo verde).\n- **Gofio:** farina di...",
+      "category": "Food & Wine",
+      "image_url": null,
+      "image_slug": "gastronomia-di-tenerife",
+      "images": ["eat-1.webp", "eat-2.jpg", "eat-3.webp", "eat-4.jpg"],
+      "structured_content": {
+        "intro": {
+          "text": "Scopri la deliziosa gastronomia di Tenerife, un mix unico di influenze spagnole e latinoamericane che si fondono in piatti genuini e ricchi di sapore."
+        },
+        "highlights": [
+          "Papas arrugadas con mojo e gofio: piatti iconici da non perdere",
+          "Gli affascinanti guachinche nel nord dell'isola offrono un'esperienza culinaria autentica",
+          "Stufati di carne, pesce fresco e polpo alla griglia: sapori tradizionali di Tenerife"
+        ],
+        "sections": [
+          {
+            "title": "Piatti Iconici di Tenerife",
+            "content": "La cucina dell'isola si esprime attraverso piatti iconici come le papas arrugadas con mojo, il gofio e il queso asado. Inoltre, non perdere gli irresistibili stufati di carne, il pesce fresco e il polpo alla griglia che deliziano i palati di locali e turisti.",
+            "type": "text"
+          },
+          {
+            "title": "Guachinche: Un'Esperienza Unica",
+            "content": "I guachinche, tipici locali nel nord dell'isola, rappresentano il cuore pulsante della tradizione culinaria di Tenerife. Qui, le famiglie produttrici di vino ti accolgono in un'atmosfera informale per farti assaporare i piatti tipici della zona in un ambiente autentico e accogliente.",
+            "type": "text"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Immergiti nei sapori autentici di Tenerife, concediti un viaggio culinario che ti porterà alla scoperta di piatti unici e tradizioni gastronomiche affascinanti. Non perdere l'occasione di vivere un'esperienza indimenticabile tra le delizie dell'isola."
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514640"
+    },
+    {
+      "id": 12,
+      "title": "Vini di Tenerife: Vitigni Vulcanici",
+      "slug": "vini-di-tenerife-vitigni-vulcanici",
+      "content": "Il terreno vulcanico, le differenze di altitudine e il clima mite creano condizioni perfette per vini dalla forte personalità.\n\n### 12.1 Zone Vitivinicole\n\n- **Tacoronte-Acentejo**\n- **Valle de la Orotava**\n- **Abona**\n\nVitigni autoctoni come **Listán Negro** e **Listán Blanco** danno vini con note minerali e una marcata freschezza. Molte cantine offrono tour, degustazioni e vendita diretta.\n\n---",
+      "excerpt": "Il terreno vulcanico, le differenze di altitudine e il clima mite creano condizioni perfette per vini dalla forte personalità.\n- **Tacoronte-Acentejo**\n- **Valle de la Orotava**\n- **Abona**\nVitigni autoctoni come **Listán Negro** e **Listán Blanco** danno vini con note minerali e una marcata...",
+      "category": "Food & Wine",
+      "image_url": null,
+      "image_slug": "vini-di-tenerife",
+      "images": ["vitigni-1.jpg", "vitigni-2.webp", "vitigni-3.jpg"],
+      "structured_content": {
+        "intro": {
+          "text": "Immergiti nel mondo dei vini di Tenerife, dove il terreno vulcanico e il clima mite danno vita a vini unici e caratterizzati da una forte personalità."
+        },
+        "highlights": [
+          "Il terreno vulcanico e il clima mite favoriscono la produzione di vini distintivi",
+          "Zone vitivinicole principali: Tacoronte-Acentejo, Valle de la Orotava, Abona",
+          "Vitigni autoctoni come Listán Negro e Listán Blanco conferiscono note minerali e freschezza ai vini"
+        ],
+        "sections": [
+          {
+            "title": "Zone Vitivinicole",
+            "content": "Le principali zone vitivinicole di Tenerife includono Tacoronte-Acentejo, Valle de la Orotava e Abona. In queste aree, i vitigni autoctoni come Listán Negro e Listán Blanco producono vini con note minerali e freschezza.",
+            "type": "list"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Scopri l'incanto dei vini di Tenerife e concediti un tour delle cantine locali per assaporare la genuinità di queste produzioni uniche al mondo."
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514643"
+    },
+    {
+      "id": 13,
+      "title": "Spiagge di Tenerife: Nere, Dorate e Selvagge",
+      "slug": "spiagge-di-tenerife-nere-dorate-e-selvagge",
+      "content": "Tenerife offre una varietà incredibile di spiagge:\n\n- **Las Teresitas (vicino a Santa Cruz):** sabbia dorata importata dal Sahara, mare calmo, ideale per famiglie.\n- **Playa Jardín (Puerto de la Cruz):** sabbia nera vulcanica con giardini progettati da César Manrique.\n- **El Médano:** lunga spiaggia ventosa, paradiso di kitesurf e windsurf.\n\nAltre calette e spiagge selvagge punteggiano tutta la costa, soprattutto nella zona di Anaga e Teno.\n\n---",
+      "excerpt": "Tenerife offre una varietà incredibile di spiagge:\n- **Las Teresitas (vicino a Santa Cruz):** sabbia dorata importata dal Sahara, mare calmo, ideale per famiglie.\n- **Playa Jardín (Puerto de la Cruz):** sabbia nera vulcanica con giardini progettati da César Manrique.\n- **El Médano:** lunga spiaggia...",
+      "category": "Mare",
+      "image_url": null,
+      "image_slug": "spiagge-di-tenerife",
+      "images": [
+        "playa-1.jpg",
+        "playa-2.jpg",
+        "playa-3.jpg",
+        "playa-4.jpg",
+        "playa-5.jpg",
+        "playa-6.jpg",
+        "playa-7.png"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Benvenuti a Tenerife, un'isola dalle spiagge mozzafiato e dalla varietà unica. Scopri le diverse sfumature di sabbia e mare che questo luogo magico ha da offrire."
+        },
+        "highlights": [
+          "Spiagge dorate importate dal Sahara a Las Teresitas",
+          "Spiaggia nera vulcanica con giardini di César Manrique a Playa Jardín",
+          "El Médano: il paradiso del kitesurf e windsurf"
+        ],
+        "sections": [
+          {
+            "title": "Spiagge Principali",
+            "content": "Tenerife vanta spiagge uniche come Las Teresitas, con sabbia dorata importata dal Sahara che incontra un mare calmo ideale per le famiglie. A Puerto de la Cruz, la Playa Jardín affascina con la sua sabbia nera vulcanica e i suggestivi giardini creati da César Manrique. Per gli amanti degli sport acquatici, El Médano è la scelta perfetta con la sua lunga spiaggia ventosa.",
+            "type": "text"
+          },
+          {
+            "title": "Cala e Spiagge Selvagge",
+            "content": "Nascoste tra le scogliere, le calette e le spiagge selvagge di Tenerife regalano un'esperienza autentica e intima. Esplora la costa di Anaga e Teno per scoprire questi tesori naturali.",
+            "type": "text"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Con le sue spiagge mozzafiato e l'atmosfera unica, Tenerife è pronta ad accoglierti per un'avventura indimenticabile. Prepara il tuo costume da bagno e immergiti in questo paradiso terrestre!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514645"
+    },
+    {
+      "id": 14,
+      "title": "Santa Cruz de Tenerife: Vita Urbana tra Porto e Cultura",
+      "slug": "santa-cruz-de-tenerife-vita-urbana-tra-porto-e-cultura",
+      "content": "Santa Cruz è la capitale amministrativa dell’isola, una città moderna con grandi viali, parchi e una scena culturale vivace.\n\n### 14.1 Cosa Fare\n\n- Fare shopping nella zona centrale (Calle Castillo e dintorni).\n- Visitare l’**Auditorium di Tenerife**, progettato da Santiago Calatrava.\n- Rilassarsi nel **Parque García Sanabria**, grande parco urbano con sculture e aree ombreggiate.\n\n---",
+      "excerpt": "Santa Cruz è la capitale amministrativa dell’isola, una città moderna con grandi viali, parchi e una scena culturale vivace.\n- Fare shopping nella zona centrale (Calle Castillo e dintorni).\n- Visitare l’**Auditorium di Tenerife**, progettato da Santiago Calatrava.\n- Rilassarsi nel **Parque García...",
+      "category": "Cultura",
+      "image_url": null,
+      "image_slug": "santa-cruz-de",
+      "images": [
+        "santacruz-1.jpg",
+        "santacruz-2.avif",
+        "santacruz-4.jpg",
+        "santacruz-5.jpg",
+        "santacruz-6.webp",
+        "santacruz-7.webp",
+        "santacruz-8.webp"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Immergiti nella vita urbana di Santa Cruz de Tenerife, capitale amministrativa dell'isola che vanta grandi viali, parchi e una vivace scena culturale."
+        },
+        "highlights": [
+          "Santa Cruz de Tenerife, una città moderna con tanto verde e cultura",
+          "Shopping nella zona centrale e visita all'Auditorium di Tenerife",
+          "Relax nel Parque García Sanabria, tra sculture e aree ombreggiate"
+        ],
+        "sections": [
+          {
+            "title": "Cosa Fare a Santa Cruz",
+            "content": "Fare shopping nella zona centrale (Calle Castillo e dintorni).\n\nVisitare l’Auditorium di Tenerife, progettato da Santiago Calatrava.\n\nRilassarsi nel Parque García Sanabria, grande parco urbano con sculture e aree ombreggiate.",
+            "type": "list"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Scopri l'incantevole miscela di cultura, arte e relax che caratterizza Santa Cruz de Tenerife. Pianifica la tua visita e lasciati sorprendere da questa affascinante città."
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514647"
+    },
+    {
+      "id": 15,
+      "title": "Carnevale di Santa Cruz: Esplosione di Colori e Musica",
+      "slug": "carnevale-di-santa-cruz-esplosione-di-colori-e-musica",
+      "content": "Il Carnevale di Santa Cruz è uno dei più grandi e famosi al mondo, spesso paragonato a quello di Rio de Janeiro.\n\n### 15.1 Eventi Principali\n\n- **Gala de Elección de la Reina:** sfilata di costumi spettacolari, alti diversi metri e pesanti decine di chili.\n- **Cabalgata Anunciadora:** grande sfilata che inaugura ufficialmente i festeggiamenti.\n- **Coso Apoteosis:** parata finale con carri, ballerini e musica.\n\nDurante il carnevale, la città si trasforma in una festa continua con musica, balli e gente mascherata per le strade fino all’alba.\n\n---",
+      "excerpt": "Il Carnevale di Santa Cruz è uno dei più grandi e famosi al mondo, spesso paragonato a quello di Rio de Janeiro.\n- **Gala de Elección de la Reina:** sfilata di costumi spettacolari, alti diversi metri e pesanti decine di chili.\n- **Cabalgata Anunciadora:** grande sfilata che inaugura ufficialmente...",
+      "category": "Cultura",
+      "image_url": null,
+      "image_slug": "carnevale-di-santa",
+      "images": [
+        "carneval-1.jpg",
+        "carneval-2.jpg",
+        "carneval-3.webp",
+        "carneval-4.jpg",
+        "carneval-5.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Immergiti nell'esplosione di colori e musica del Carnevale di Santa Cruz, uno dei più grandi e famosi al mondo che ti lascerà senza fiato."
+        },
+        "highlights": [
+          "Paragonato al leggendario Carnevale di Rio de Janeiro",
+          "Sfilate di costumi spettacolari e imponenti",
+          "Festa continua con musica, balli e maschere per le strade"
+        ],
+        "sections": [
+          {
+            "title": "Eventi Principali",
+            "content": "**Gala de Elección de la Reina:** sfilata di costumi spettacolari, alti diversi metri e pesanti decine di chili.\n\n**Cabalgata Anunciadora:** grande sfilata che inaugura ufficialmente i festeggiamenti.\n\n**Coso Apoteosis:** parata finale con carri, ballerini e musica.",
+            "type": "list"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Preparati a vivere un'esperienza unica al Carnevale di Santa Cruz, dove la magia e l'allegria si fondono in un tripudio di emozioni. Non perdere l'occasione di partecipare a questa festa indimenticabile!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514649"
+    },
+    {
+      "id": 16,
+      "title": "Clima e Microclimi: Dove Alloggiare in Base alle Tue Esigenze",
+      "slug": "clima-e-microclimi-dove-alloggiare-in-base-alle-tue-esigenze",
+      "content": "Tenerife è famosa come “l’isola dell’eterna primavera”, ma presenta microclimi molto diversi tra nord, sud, costa e interno.\n\n### 16.1 Nord vs Sud\n\n- **Sud (Costa Adeje, Las Américas, Los Cristianos):** più secco, soleggiato e caldo tutto l’anno. Ideale per chi cerca mare, sole e resort.\n- **Nord (Puerto de la Cruz, La Orotava):** più umido e verde, con temperature leggermente più fresche e maggiori probabilità di nuvole.\n\nScegli il nord se ami paesaggi verdi e vuoi esplorare la natura; scegli il sud se priorità assoluta è il bel tempo da spiaggia.\n\n---",
+      "excerpt": "Tenerife è famosa come “l’isola dell’eterna primavera”, ma presenta microclimi molto diversi tra nord, sud, costa e interno.\n- **Sud (Costa Adeje, Las Américas, Los Cristianos):** più secco, soleggiato e caldo tutto l’anno. Ideale per chi cerca mare, sole e resort.\n- **Nord (Puerto de la Cruz, La...",
+      "category": "Guide",
+      "image_url": null,
+      "image_slug": "clima-e-microclimi",
+      "images": [
+        "villa-1.webp",
+        "villa-2.jpg",
+        "villa-3.jpg",
+        "villa-4.jpg",
+        "villa-5.avif"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Benvenuto a Tenerife, l'isola dell'eterna primavera! Scopri come il clima e i microclimi influenzano la scelta della tua destinazione ideale per una vacanza indimenticabile."
+        },
+        "highlights": [
+          "Tenerife offre microclimi diversi tra nord e sud dell'isola",
+          "Il sud è perfetto per chi cerca sole, mare e resort",
+          "Il nord è ideale per gli amanti della natura e dei paesaggi verdi"
+        ],
+        "sections": [
+          {
+            "title": "Nord vs Sud",
+            "content": "Il sud dell'isola, con località come Costa Adeje, Las Américas e Los Cristianos, ti coccola con un clima secco, soleggiato e caldo tutto l'anno. E' la scelta perfetta se desideri trascorrere le tue giornate al mare o nei lussuosi resort. Al contrario, il nord con città come Puerto de la Cruz e La Orotava, ti regala un ambiente più umido e verde, con temperature leggermente più fresche e un'atmosfera caratterizzata da nuvole sporadiche. Se ami esplorare la natura e ammirare paesaggi mozzafiato, il nord è la tua destinazione ideale; se invece non vuoi rinunciare al sole e al bel tempo, il sud è ciò che fa per te.",
+            "type": "text"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Ora che conosci le differenze tra nord e sud di Tenerife, puoi scegliere la tua destinazione perfetta in base alle tue esigenze. Prepara la valigia e parti all'avventura, l'isola ti aspetta!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514651"
+    },
+    {
+      "id": 17,
+      "title": "Outdoor e Sport: Trekking, MTB, Parapendio",
+      "slug": "outdoor-e-sport-trekking-mtb-parapendio",
+      "content": "Tenerife è un parco giochi all’aria aperta per appassionati di sport.\n\n- **Trekking:** Teide, Anaga, Teno offrono sentieri per tutti i livelli.\n- **MTB:** percorsi sterrati in zone interne e forestali.\n- **Parapendio:** decolli famosi nei pressi di Adeje, Güímar e Izaña, con atterraggi sulla costa.\n\nNumerose scuole e guide certificate offrono corsi e accompagnamenti.\n\n---",
+      "excerpt": "Tenerife è un parco giochi all’aria aperta per appassionati di sport.\n- **Trekking:** Teide, Anaga, Teno offrono sentieri per tutti i livelli.\n- **MTB:** percorsi sterrati in zone interne e forestali.\n- **Parapendio:** decolli famosi nei pressi di Adeje, Güímar e Izaña, con atterraggi sulla...",
+      "category": "Natura",
+      "image_url": null,
+      "image_slug": "outdoor-e-sport",
+      "images": [
+        "parapendio-1.jpg",
+        "parapendio-2.webp",
+        "mtb-1.jpg",
+        "hiking-1.jpg",
+        "quad-1.jpg",
+        "quad-2.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Benvenuti a Tenerife, il paradiso degli sport all'aria aperta! Trekking, MTB e parapendio sono solo alcune delle emozionanti attività che l'isola ha da offrire."
+        },
+        "highlights": [
+          "Sentieri di trekking per tutti i livelli tra Teide, Anaga e Teno",
+          "Percorsi sterrati ideali per l'MTB nelle zone interne e forestali",
+          "Decolli famosi per il parapendio vicino ad Adeje, Güímar e Izaña"
+        ],
+        "sections": [],
+        "tips": [],
+        "conclusion": {
+          "text": "Che tu sia un appassionato di trekking, un amante della MTB o un avventuriero del parapendio, Tenerife ti aspetta con le sue emozionanti opportunità sportive. Prepara le scarpe da trekking, sella la tua MTB o preparati a spiccare il volo: l'avventura ti aspetta!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514653"
+    },
+    {
+      "id": 18,
+      "title": "Escursioni alle Isole Vicine: La Gomera, La Palma ed El Hierro",
+      "slug": "escursioni-alle-isole-vicine-la-gomera-la-palma-ed-el-hierro",
+      "content": "Da Tenerife puoi raggiungere facilmente altre isole delle Canarie:\n\n- **La Gomera:** natura lussureggiante, Parco Nazionale di Garajonay, villaggi tradizionali.\n- **La Palma:** nota per i suoi cieli stellati, vulcani e foreste.\n- **El Hierro:** la più piccola e meno turistica, paradiso per immersioni e turismo slow.\n\nTraghetti e voli interni rendono semplici le escursioni di uno o più giorni.\n\n---",
+      "excerpt": "Da Tenerife puoi raggiungere facilmente altre isole delle Canarie:\n- **La Gomera:** natura lussureggiante, Parco Nazionale di Garajonay, villaggi tradizionali.\n- **La Palma:** nota per i suoi cieli stellati, vulcani e foreste.\n- **El Hierro:** la più piccola e meno turistica, paradiso per...",
+      "category": "Guide",
+      "image_url": null,
+      "image_slug": "escursioni-alle-isole",
+      "images": [
+        "gomera-1.avif",
+        "gomera-2.webp",
+        "lapalma-1.png",
+        "lapalma-2.webp",
+        "lapalma-3.jpg",
+        "elhierro-1.jpg",
+        "elhierro-2.webp",
+        "elhierro-3.jpg",
+        "elhierro-4.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Esplorare le isole vicine a Tenerife è un'esperienza imperdibile per chi ama la natura e la tranquillità delle Canarie."
+        },
+        "highlights": [
+          "La Gomera: natura lussureggiante e villaggi tradizionali",
+          "La Palma: cieli stellati, vulcani e foreste",
+          "El Hierro: paradiso per immersioni e turismo slow"
+        ],
+        "sections": [],
+        "tips": [],
+        "conclusion": {
+          "text": "Scopri la bellezza incontaminata di La Gomera, La Palma ed El Hierro partendo da Tenerife e lasciati incantare dalla magia delle Canarie."
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514656"
+    },
+    {
+      "id": 19,
+      "title": "Tenerife con Bambini: Parchi, Spiagge e Attività Family-Friendly",
+      "slug": "tenerife-con-bambini-parchi-spiagge-e-attivita-family-friendly",
+      "content": "L’isola è una meta ideale per famiglie grazie a:\n\n- Parchi tematici come **Siam Park** e **Loro Parque**.\n- Spiagge con acque calme e servizi (docce, bagnini, giochi).\n- Attività semplici di trekking (Sendero de los Sentidos, passeggiate costiere).\n\nMolti hotel offrono miniclub, piscine dedicate e servizi specifici per bambini.\n\n---",
+      "excerpt": "L’isola è una meta ideale per famiglie grazie a:\n- Parchi tematici come **Siam Park** e **Loro Parque**.\n- Spiagge con acque calme e servizi (docce, bagnini, giochi).\n- Attività semplici di trekking (Sendero de los Sentidos, passeggiate costiere).\nMolti hotel offrono miniclub, piscine dedicate e...",
+      "category": "Guide",
+      "image_url": null,
+      "image_slug": "tenerife-con-bambini",
+      "images": [
+        "kidsactivity-1.jpg",
+        "kidsactivity-2.webp",
+        "kidsactivity-3.jpg",
+        "kidsactivity-4.jpg",
+        "kidsactivity-5.jpg"
+      ],
+      "structured_content": {
+        "intro": {
+          "text": "Se stai pianificando una vacanza a Tenerife con i bambini, sei nel posto giusto! Questa meravigliosa isola offre una vasta gamma di attività e servizi family-friendly che renderanno indimenticabile la tua esperienza."
+        },
+        "highlights": [
+          "Parchi tematici come Siam Park e Loro Parque",
+          "Spiagge con acque calme e servizi completi",
+          "Attività di trekking accessibili per tutta la famiglia"
+        ],
+        "sections": [
+          {
+            "title": "Parchi Tematici",
+            "content": "Tenerife vanta parchi tematici di fama mondiale come il vibrante Siam Park, perfetto per un'esperienza acquatica emozionante, e il suggestivo Loro Parque, dove grandi e piccoli possono ammirare una varietà di animali esotici.",
+            "type": "text"
+          },
+          {
+            "title": "Spiagge Incantevoli",
+            "content": "Le spiagge di Tenerife sono un paradiso per le famiglie, con acque cristalline e servizi impeccabili come docce, bagnini sempre pronti e aree giochi per i più piccoli. Un luogo ideale per rilassarsi e divertirsi in sicurezza.",
+            "type": "text"
+          },
+          {
+            "title": "Attività all'aria aperta",
+            "content": "Per chi ama l'avventura soft, Tenerife offre percorsi di trekking accessibili a tutti come il Sendero de los Sentidos e suggestive passeggiate costiere. Un modo perfetto per esplorare la natura in famiglia.",
+            "type": "text"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Con una vasta gamma di attività divertenti e servizi pensati appositamente per i più piccoli, Tenerife è la meta perfetta per una vacanza in famiglia indimenticabile. Cosa aspetti? Prepara le valigie e parti all'avventura con i tuoi bambini!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514658"
+    },
+    {
+      "id": 20,
+      "title": "Vivere a Tenerife e Itinerari 3/5/7 Giorni",
+      "slug": "vivere-a-tenerife-e-itinerari-357-giorni",
+      "content": "Sempre più persone scelgono Tenerife per trasferirsi o trascorrere lunghi periodi come nomadi digitali o pensionati.\n\n### 20.1 Vivere a Tenerife\n\n- Costo della vita generalmente inferiore rispetto a molte città del Nord Europa.\n- Clima mite tutto l’anno, ideale per benessere fisico e mentale.\n- Buona infrastruttura di connessioni internet, coworking e servizi.\n\n### 20.2 Itinerari Esempio\n\n- **3 giorni:**\n\n  - Giorno 1: Sud (Costa Adeje, Playa del Duque, tramonto sulla costa).\n  - Giorno 2: Teide (salita con funivia, Roques de García).\n  - Giorno 3: Whale watching e relax in spiaggia.\n\n- **5 giorni:**\n\n  - Aggiungi Puerto de la Cruz, visita al Loro Parque, escursione ad Anaga.\n\n- **7 giorni:**\n  - Giro quasi completo dell’isola, includendo Masca, Garachico, La Laguna, Santa Cruz e magari una gita in traghetto a La Gomera.",
+      "excerpt": "Sempre più persone scelgono Tenerife per trasferirsi o trascorrere lunghi periodi come nomadi digitali o pensionati.\n- Costo della vita generalmente inferiore rispetto a molte città del Nord Europa.\n- Clima mite tutto l’anno, ideale per benessere fisico e mentale.\n- Buona infrastruttura di...",
+      "category": "Guide",
+      "image_url": null,
+      "image_slug": "vivere-a-tenerife",
+      "images": ["villa-1.webp", "teide-1.jpg"],
+      "structured_content": {
+        "intro": {
+          "text": "Se stai pensando di trasferirti o trascorrere del tempo a Tenerife, sei nel posto giusto! Scopri il costo della vita conveniente, il clima mite tutto l'anno e le ottime infrastrutture per nomadi digitali e pensionati."
+        },
+        "highlights": [
+          "Costo della vita conveniente",
+          "Clima mite tutto l'anno",
+          "Ottime infrastrutture per nomadi digitali e pensionati"
+        ],
+        "sections": [
+          {
+            "title": "Itinerario 3 Giorni",
+            "content": "Esplora la costa sud il primo giorno, con tappe a Costa Adeje e Playa del Duque per ammirare un tramonto mozzafiato. Il secondo giorno, sali al Teide con la funivia e visita i Roques de García. Infine, il terzo giorno dedicato al whale watching e al relax in spiaggia.",
+            "type": "text"
+          },
+          {
+            "title": "Itinerario 5 Giorni",
+            "content": "In aggiunta agli itinerari precedenti, trascorri del tempo a Puerto de la Cruz, visita il Loro Parque e fai un'escursione ad Anaga per scoprire paesaggi mozzafiato.",
+            "type": "text"
+          },
+          {
+            "title": "Itinerario 7 Giorni",
+            "content": "Per un'esperienza più completa, fai il giro quasi completo dell'isola includendo Masca, Garachico, La Laguna, Santa Cruz e perché non una gita in traghetto a La Gomera per un tocco extra di avventura.",
+            "type": "text"
+          }
+        ],
+        "tips": [],
+        "conclusion": {
+          "text": "Scopri la vita a Tenerife con itinerari su misura per te. Che tu voglia rilassarti in spiaggia, esplorare paesaggi mozzafiato o avventurarti in nuove esperienze, Tenerife ha qualcosa di speciale per tutti!"
+        }
+      },
+      "author_id": null,
+      "is_published": false,
+      "created_at": "2025-12-06T23:48:54.514660"
+    }
+  ],
+  "saved_articles": []
+}

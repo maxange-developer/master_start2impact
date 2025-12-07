@@ -15,11 +15,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from app.core.config import settings
 
-# Initialize database engine with SQLite
-# check_same_thread=False: Required for SQLite multi-threading support
+# Initialize database engine
 engine = create_engine(
-    settings.SQLALCHEMY_DATABASE_URI,
-    connect_args={"check_same_thread": False}
+    settings.SQLALCHEMY_DATABASE_URI
 )
 
 # Create session factory for database operations
