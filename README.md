@@ -27,8 +27,8 @@
 
 ```bash
 # Clona e naviga
-git clone https://github.com/TUO_USERNAME/tenerife-ai-finder.git
-cd tenerife-ai-finder
+git clone https://github.com/maxange-developer/master_start2impact
+cd master_start2impact
 
 # Copia il template dell'ambiente e aggiungi le chiavi API fornite
 copy .env.example .env
