@@ -2,7 +2,7 @@
 
 **Una Piattaforma Full-Stack Alimentata da AI per la Scoperta Intelligente di Attività Turistiche**
 
-[![Link Piattaforma]](https://master-s2i.netlify.app/home)
+## https://master-s2i.netlify.app/home
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
