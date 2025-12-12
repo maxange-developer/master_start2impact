@@ -13,13 +13,16 @@
  * - Nested routes with shared Layout component
  * - Multi-language support via LanguageProvider
  * - Automatic redirect to login for unauthenticated users
+ * - Prefetching of images and pages for improved performance
  *
  * Technical Notes:
  * - Uses React Router v6 nested routes
  * - ProtectedRoute checks Zustand authStore for token
  * - Layout component provides Navbar and consistent structure
+ * - Prefetch utility loads images and pages in background via requestIdleCallback
  */
 
+import { useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
@@ -33,6 +36,7 @@ import CreateArticle from "./pages/CreateArticle";
 import Layout from "./components/Layout";
 import { useAuthStore } from "./store/authStore";
 import { LanguageProvider } from "./i18n/LanguageContext";
+import { setupPrefetch } from "./utils/prefetch";
 
 /**
  * Protected Route Wrapper Component
@@ -52,6 +56,11 @@ function ProtectedRoute({ children }) {
 }
 
 function App() {
+  // Setup prefetching on app load
+  useEffect(() => {
+    setupPrefetch();
+  }, []);
+
   return (
     <LanguageProvider>
       <Routes>
