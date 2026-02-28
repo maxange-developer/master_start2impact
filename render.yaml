@@ -1,0 +1,44 @@
+# Render.com Deployment Configuration
+# https://render.com/docs/render-yaml-spec
+#
+# Deploy steps (first time):
+# 1. Push this file to GitHub
+# 2. On Render dashboard: New > Blueprint > connect this repo
+# 3. Set the secret env vars marked with `sync: false` in the dashboard
+#
+# The disk ensures SQLite data persists across deploys/restarts.
+# Without a disk the auto-seed in index.ts will re-populate data after each restart.
+
+services:
+  - type: web
+    name: tenerife-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: node dist/index.js
+    healthCheckPath: /health
+
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 8000
+      # SQLite stored on the persistent disk below
+      - key: SQLALCHEMY_DATABASE_URI
+        value: sqlite:////var/data/sql_app.db
+      # Set these manually in the Render dashboard:
+      - key: SECRET_KEY
+        sync: false   # REQUIRED — set in dashboard
+      - key: OPENAI_API_KEY
+        sync: false   # optional — enables AI search
+      - key: TAVILY_API_KEY
+        sync: false   # optional — enables web search
+      - key: CORS_ORIGINS
+        sync: false   # e.g. https://your-frontend.onrender.com
+
+    # Persistent disk — $0.25/GB/month (1 GB minimum)
+    # Remove this block if you prefer the free tier with auto-seed on each restart
+    disk:
+      name: tenerife-data
+      mountPath: /var/data
+      sizeGB: 1

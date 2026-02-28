@@ -17,6 +17,7 @@ import { settings } from "./core/config";
 import { initDatabase } from "./core/database";
 import { errorHandler } from "./middlewares/errorHandler";
 import apiRouter from "./api/api";
+import { seedIfEmpty } from "./utils/seedIfEmpty";
 
 const app = express();
 
@@ -73,8 +74,11 @@ app.use(errorHandler);
  */
 async function startServer() {
   try {
-    // Initialize database
+    // Initialize database (creates tables if they don't exist)
     await initDatabase();
+
+    // Seed with initial data if DB is empty (handles Render ephemeral FS)
+    await seedIfEmpty();
 
     // Start listening
     app.listen(settings.PORT, () => {

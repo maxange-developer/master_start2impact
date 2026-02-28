@@ -1,27 +1,36 @@
-# Use official Python runtime as base image
-FROM python:3.11-slim
+# ---- Stage 1: Build ----
+FROM node:18-alpine AS builder
 
-# Set working directory
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    gcc \
-    && rm -rf /var/lib/apt/lists/*
+COPY package*.json ./
+RUN npm ci
 
-# Copy requirements and install Python dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY tsconfig.json ./
+COPY src/ ./src/
+COPY scripts/ ./scripts/
 
-# Copy application code
-COPY . .
+RUN npm run build
 
-# Expose port
+# ---- Stage 2: Production ----
+FROM node:18-alpine AS production
+
+WORKDIR /app
+
+# Install only production deps
+COPY package*.json ./
+RUN npm ci --omit=dev
+
+# Copy compiled output and scripts
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/scripts ./scripts
+
+# Create persistent data and image directories
+RUN mkdir -p /app/data /app/public/images/blog
+
 EXPOSE 8000
 
-# Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
-    CMD curl -f http://localhost:8000/api/v1/health || exit 1
+    CMD wget -qO- http://localhost:8000/health || exit 1
 
-# Run initialization script and start server
-CMD python import_data.py && python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+CMD ["node", "dist/index.js"]
