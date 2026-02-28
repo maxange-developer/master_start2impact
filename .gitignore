@@ -1,8 +1,18 @@
 # Project Documentation Files
 project_files/
 
+# Old Python Backend (deprecated)
+backend_old/
+
+# Temporary migration directories
+backend_new_files/
+
 # Backend
 backend/.env
+backend/node_modules/
+backend/dist/
+backend/coverage/
+backend/data/
 backend/*.db
 backend/test.db
 backend/.coverage
@@ -26,6 +36,11 @@ frontend/.env.*.local
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
+
+# VS Code preview cache (auto-generated thumbnails)
+frontend/public/images/blog/*.gif
+frontend/public/images/blog/*-test.*
+frontend/public/images/blog/[0-9a-f][0-9a-f][0-9a-f][0-9a-f]*
 
 # IDE
 .vscode/

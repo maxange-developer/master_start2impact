@@ -259,9 +259,11 @@ export default function Blog() {
                     <img
                       src={getImageUrl(article)}
                       alt={article.title}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover"
                       onError={(e) => {
-                        e.target.style.display = "none";
+                        e.target.parentElement.style.display = "none";
                       }}
                     />
                   ) : (

@@ -67,11 +67,29 @@ export default function ArticleDetail() {
   const [isSaved, setIsSaved] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [modalImageOpen, setModalImageOpen] = useState(false);
+  // Track which image srcs are already preloaded (browser cache)
+  const preloadedRef = React.useRef(new Set());
 
   useEffect(() => {
     fetchArticle();
     checkIfSaved();
   }, [id]);
+
+  // Preload only current + adjacent images (not all at once)
+  useEffect(() => {
+    if (!modalImageOpen || !article?.images?.length) return;
+    const images = article.images;
+    const count = images.length;
+    [-1, 0, 1].forEach((offset) => {
+      const idx = (currentImageIndex + offset + count) % count;
+      const src = `/images/blog/${images[idx]}`;
+      if (!preloadedRef.current.has(src)) {
+        preloadedRef.current.add(src);
+        const img = new Image();
+        img.src = src;
+      }
+    });
+  }, [modalImageOpen, currentImageIndex, article]);
 
   const fetchArticle = async () => {
     try {
@@ -214,6 +232,8 @@ export default function ArticleDetail() {
                 <img
                   src={getImageUrl()}
                   alt={article.title}
+                  loading="eager"
+                  decoding="async"
                   className="w-full h-full object-cover cursor-pointer"
                   onClick={openModal}
                   onError={(e) => {
@@ -291,9 +311,13 @@ export default function ArticleDetail() {
           <div className="relative w-full h-full flex items-center justify-center p-8">
             {getImageUrl() && (
               <>
+                {/* Single image — src changes only when preloaded, fade-in on each switch */}
                 <img
+                  key={currentImageIndex}
                   src={getImageUrl()}
                   alt={article.title}
+                  decoding="async"
+                  style={{ animation: 'fadeIn 0.2s ease' }}
                   className="max-w-full max-h-full object-contain"
                   onClick={(e) => e.stopPropagation()}
                 />

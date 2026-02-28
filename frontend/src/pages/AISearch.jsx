@@ -105,6 +105,15 @@ export default function AISearch() {
       }
     } catch (error) {
       console.error("Search failed", error);
+      const code = error?.response?.data?.code;
+      if (code === "AI_QUOTA_EXCEEDED") {
+        setOffTopicMessage("Il servizio AI ha esaurito i crediti. Aggiungi crediti all'account OpenAI per usare la ricerca.");
+      } else if (code === "AI_INVALID_KEY") {
+        setOffTopicMessage("Configurazione AI non valida. Controlla la chiave API.");
+      } else {
+        setOffTopicMessage("Errore nella ricerca. Riprova più tardi.");
+      }
+      setResults([]);
     } finally {
       setLoading(false);
       setIsSuggestion(false); // Reset after search
@@ -237,13 +246,15 @@ export default function AISearch() {
                   className="bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow cursor-pointer group"
                 >
                   {item.image_url && (
-                    <div className="w-full h-48 overflow-hidden">
+                    <div className="w-full h-48 overflow-hidden bg-gray-100">
                       <img
                         src={item.image_url}
                         alt={item.title}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         onError={(e) => {
-                          e.target.style.display = "none";
+                          e.target.parentElement.style.display = "none";
                         }}
                       />
                     </div>
@@ -377,13 +388,15 @@ export default function AISearch() {
               className="relative w-full max-w-lg bg-white rounded-3xl shadow-2xl overflow-hidden max-h-[90vh] flex flex-col"
             >
               {selectedActivity.image_url && (
-                <div className="w-full h-64 overflow-hidden flex-shrink-0">
+                <div className="w-full h-64 overflow-hidden flex-shrink-0 bg-gray-100">
                   <img
                     src={selectedActivity.image_url}
                     alt={selectedActivity.title}
+                    loading="eager"
+                    decoding="async"
                     className="w-full h-full object-cover"
                     onError={(e) => {
-                      e.target.style.display = "none";
+                      e.target.parentElement.style.display = "none";
                     }}
                   />
                 </div>

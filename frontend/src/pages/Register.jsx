@@ -55,6 +55,12 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+
+    if (password.length < 6) {
+      setError("Password must be at least 6 characters.");
+      return;
+    }
+
     setLoading(true);
 
     try {
@@ -64,11 +70,10 @@ export default function Register() {
         full_name: fullName,
       });
 
-      const formData = new FormData();
-      formData.append("username", email);
-      formData.append("password", password);
-
-      const loginResponse = await api.post("/auth/login", formData);
+      const loginResponse = await api.post("/auth/login", {
+        username: email,
+        password,
+      });
       const { access_token } = loginResponse.data;
 
       setToken(access_token);
@@ -81,7 +86,10 @@ export default function Register() {
       navigate("/home");
     } catch (err) {
       console.error(err);
-      setError("Registration failed. Email might be taken.");
+      const detail =
+        err?.response?.data?.detail ||
+        err?.response?.data?.errors?.[0]?.message;
+      setError(detail || "Registration failed. Email might already be taken.");
     } finally {
       setLoading(false);
     }
@@ -143,8 +151,9 @@ export default function Register() {
             <input
               type="password"
               required
+              minLength={6}
               className="w-full p-4 bg-white rounded-xl border-0 focus:ring-2 focus:ring-white text-black placeholder:text-gray-400"
-              placeholder="••••••••"
+              placeholder="Min. 6 characters"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />

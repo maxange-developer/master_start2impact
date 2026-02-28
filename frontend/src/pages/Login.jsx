@@ -54,11 +54,10 @@ export default function Login() {
     setLoading(true);
 
     try {
-      const formData = new FormData();
-      formData.append("username", email);
-      formData.append("password", password);
-
-      const response = await api.post("/auth/login", formData);
+      const response = await api.post("/auth/login", {
+        username: email,
+        password,
+      });
       const { access_token } = response.data;
 
       setToken(access_token);
@@ -70,7 +69,8 @@ export default function Login() {
 
       navigate("/home");
     } catch (err) {
-      setError("Invalid credentials. Please try again.");
+      const detail = err?.response?.data?.detail;
+      setError(detail || "Invalid credentials. Please try again.");
     } finally {
       setLoading(false);
     }
